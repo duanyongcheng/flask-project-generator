@@ -1,0 +1,2 @@
+[console_scripts]
+create-flask-project = flask_generator.cli:main

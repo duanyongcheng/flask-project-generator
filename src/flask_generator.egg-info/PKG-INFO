@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: flask-generator
+Version: 0.1.0
+Summary: A Flask project generator with AI API integration
+Author-email: Your Name <your.email@example.com>
+Requires-Dist: click
+Requires-Dist: questionary
