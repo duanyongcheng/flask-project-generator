@@ -1,0 +1,4 @@
+.idea
+dist
+src/project_generator_python.egg-info
+.idea/python-project-generator.iml
