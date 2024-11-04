@@ -5,13 +5,13 @@ A command-line tool to quickly generate Flask projects with common patterns and 
 ## Installation
 
 ```bash
-pip install flask-project-generator
+pip install python-project-generator
 ```
 
 ## Usage
 
 ```bash
-create-flask-project
+create-python-project
 ```
 
 Follow the interactive prompts to:

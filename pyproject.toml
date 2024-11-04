@@ -1,5 +1,5 @@
 [project]
-name = "flask-project-generator"
+name = "python-project-generator"
 version = "0.1.0"
 description = "A CLI tool to generate Flask projects"
 authors = [
@@ -7,6 +7,7 @@ authors = [
 ]
 dependencies = [
     "click",
+    "questionary",
     "questionary"
 ]
 requires-python = ">=3.8"
@@ -14,7 +15,7 @@ readme = "README.md"
 license = { text = "MIT" }
 
 [project.scripts]
-create-flask-project = "flask_generator.cli:main"
+create-python-project = "python_generator.cli:main"
 
 [build-system]
 requires = ["hatchling"]

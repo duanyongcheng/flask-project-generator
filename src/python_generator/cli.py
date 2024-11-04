@@ -2,7 +2,7 @@ import os
 import click
 import questionary
 from pathlib import Path
-from flask_generator.templates import TEMPLATES  # 修改导入路径
+from python_generator.templates import TEMPLATES  # 修改导入路径
 from typing import Union, Optional
 
 def write_file(path: Union[str, Path], content: Optional[str] = '') -> None:
